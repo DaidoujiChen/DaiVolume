@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010D3EE218F63F3000A2CC10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010D3EE118F63F3000A2CC10 /* Foundation.framework */; };
+		010D3EE418F63F3000A2CC10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010D3EE318F63F3000A2CC10 /* CoreGraphics.framework */; };
+		010D3EE618F63F3000A2CC10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010D3EE518F63F3000A2CC10 /* UIKit.framework */; };
+		010D3EEC18F63F3000A2CC10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 010D3EEA18F63F3000A2CC10 /* InfoPlist.strings */; };
+		010D3EEE18F63F3000A2CC10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3EED18F63F3000A2CC10 /* main.m */; };
+		010D3EF218F63F3000A2CC10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3EF118F63F3000A2CC10 /* AppDelegate.m */; };
+		010D3EF518F63F3000A2CC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010D3EF318F63F3000A2CC10 /* Main.storyboard */; };
+		010D3EF818F63F3000A2CC10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3EF718F63F3000A2CC10 /* ViewController.m */; };
+		010D3EFA18F63F3000A2CC10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010D3EF918F63F3000A2CC10 /* Images.xcassets */; };
+		010D3F0118F63F3000A2CC10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010D3F0018F63F3000A2CC10 /* XCTest.framework */; };
+		010D3F0218F63F3000A2CC10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010D3EE118F63F3000A2CC10 /* Foundation.framework */; };
+		010D3F0318F63F3000A2CC10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010D3EE518F63F3000A2CC10 /* UIKit.framework */; };
+		010D3F0B18F63F3000A2CC10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 010D3F0918F63F3000A2CC10 /* InfoPlist.strings */; };
+		010D3F0D18F63F3000A2CC10 /* DaiVolumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3F0C18F63F3000A2CC10 /* DaiVolumeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		010D3F0418F63F3000A2CC10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010D3ED618F63F2F00A2CC10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010D3EDD18F63F2F00A2CC10;
+			remoteInfo = DaiVolume;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010D3EDE18F63F3000A2CC10 /* DaiVolume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaiVolume.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010D3EE118F63F3000A2CC10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		010D3EE318F63F3000A2CC10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		010D3EE518F63F3000A2CC10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		010D3EE918F63F3000A2CC10 /* DaiVolume-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DaiVolume-Info.plist"; sourceTree = "<group>"; };
+		010D3EEB18F63F3000A2CC10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		010D3EED18F63F3000A2CC10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		010D3EEF18F63F3000A2CC10 /* DaiVolume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DaiVolume-Prefix.pch"; sourceTree = "<group>"; };
+		010D3EF018F63F3000A2CC10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		010D3EF118F63F3000A2CC10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		010D3EF418F63F3000A2CC10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		010D3EF618F63F3000A2CC10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		010D3EF718F63F3000A2CC10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		010D3EF918F63F3000A2CC10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		010D3EFF18F63F3000A2CC10 /* DaiVolumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaiVolumeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		010D3F0018F63F3000A2CC10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		010D3F0818F63F3000A2CC10 /* DaiVolumeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DaiVolumeTests-Info.plist"; sourceTree = "<group>"; };
+		010D3F0A18F63F3000A2CC10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		010D3F0C18F63F3000A2CC10 /* DaiVolumeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaiVolumeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010D3EDB18F63F2F00A2CC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010D3EE418F63F3000A2CC10 /* CoreGraphics.framework in Frameworks */,
+				010D3EE618F63F3000A2CC10 /* UIKit.framework in Frameworks */,
+				010D3EE218F63F3000A2CC10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010D3EFC18F63F3000A2CC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010D3F0118F63F3000A2CC10 /* XCTest.framework in Frameworks */,
+				010D3F0318F63F3000A2CC10 /* UIKit.framework in Frameworks */,
+				010D3F0218F63F3000A2CC10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010D3ED518F63F2F00A2CC10 = {
+			isa = PBXGroup;
+			children = (
+				010D3EE718F63F3000A2CC10 /* DaiVolume */,
+				010D3F0618F63F3000A2CC10 /* DaiVolumeTests */,
+				010D3EE018F63F3000A2CC10 /* Frameworks */,
+				010D3EDF18F63F3000A2CC10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		010D3EDF18F63F3000A2CC10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010D3EDE18F63F3000A2CC10 /* DaiVolume.app */,
+				010D3EFF18F63F3000A2CC10 /* DaiVolumeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010D3EE018F63F3000A2CC10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				010D3EE118F63F3000A2CC10 /* Foundation.framework */,
+				010D3EE318F63F3000A2CC10 /* CoreGraphics.framework */,
+				010D3EE518F63F3000A2CC10 /* UIKit.framework */,
+				010D3F0018F63F3000A2CC10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		010D3EE718F63F3000A2CC10 /* DaiVolume */ = {
+			isa = PBXGroup;
+			children = (
+				010D3EF018F63F3000A2CC10 /* AppDelegate.h */,
+				010D3EF118F63F3000A2CC10 /* AppDelegate.m */,
+				010D3EF318F63F3000A2CC10 /* Main.storyboard */,
+				010D3EF618F63F3000A2CC10 /* ViewController.h */,
+				010D3EF718F63F3000A2CC10 /* ViewController.m */,
+				010D3EF918F63F3000A2CC10 /* Images.xcassets */,
+				010D3EE818F63F3000A2CC10 /* Supporting Files */,
+			);
+			path = DaiVolume;
+			sourceTree = "<group>";
+		};
+		010D3EE818F63F3000A2CC10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				010D3EE918F63F3000A2CC10 /* DaiVolume-Info.plist */,
+				010D3EEA18F63F3000A2CC10 /* InfoPlist.strings */,
+				010D3EED18F63F3000A2CC10 /* main.m */,
+				010D3EEF18F63F3000A2CC10 /* DaiVolume-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		010D3F0618F63F3000A2CC10 /* DaiVolumeTests */ = {
+			isa = PBXGroup;
+			children = (
+				010D3F0C18F63F3000A2CC10 /* DaiVolumeTests.m */,
+				010D3F0718F63F3000A2CC10 /* Supporting Files */,
+			);
+			path = DaiVolumeTests;
+			sourceTree = "<group>";
+		};
+		010D3F0718F63F3000A2CC10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				010D3F0818F63F3000A2CC10 /* DaiVolumeTests-Info.plist */,
+				010D3F0918F63F3000A2CC10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010D3EDD18F63F2F00A2CC10 /* DaiVolume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010D3F1018F63F3000A2CC10 /* Build configuration list for PBXNativeTarget "DaiVolume" */;
+			buildPhases = (
+				010D3EDA18F63F2F00A2CC10 /* Sources */,
+				010D3EDB18F63F2F00A2CC10 /* Frameworks */,
+				010D3EDC18F63F2F00A2CC10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaiVolume;
+			productName = DaiVolume;
+			productReference = 010D3EDE18F63F3000A2CC10 /* DaiVolume.app */;
+			productType = "com.apple.product-type.application";
+		};
+		010D3EFE18F63F3000A2CC10 /* DaiVolumeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010D3F1318F63F3000A2CC10 /* Build configuration list for PBXNativeTarget "DaiVolumeTests" */;
+			buildPhases = (
+				010D3EFB18F63F3000A2CC10 /* Sources */,
+				010D3EFC18F63F3000A2CC10 /* Frameworks */,
+				010D3EFD18F63F3000A2CC10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010D3F0518F63F3000A2CC10 /* PBXTargetDependency */,
+			);
+			name = DaiVolumeTests;
+			productName = DaiVolumeTests;
+			productReference = 010D3EFF18F63F3000A2CC10 /* DaiVolumeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010D3ED618F63F2F00A2CC10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ChilunChen;
+				TargetAttributes = {
+					010D3EFE18F63F3000A2CC10 = {
+						TestTargetID = 010D3EDD18F63F2F00A2CC10;
+					};
+				};
+			};
+			buildConfigurationList = 010D3ED918F63F2F00A2CC10 /* Build configuration list for PBXProject "DaiVolume" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010D3ED518F63F2F00A2CC10;
+			productRefGroup = 010D3EDF18F63F3000A2CC10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010D3EDD18F63F2F00A2CC10 /* DaiVolume */,
+				010D3EFE18F63F3000A2CC10 /* DaiVolumeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010D3EDC18F63F2F00A2CC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010D3EFA18F63F3000A2CC10 /* Images.xcassets in Resources */,
+				010D3EEC18F63F3000A2CC10 /* InfoPlist.strings in Resources */,
+				010D3EF518F63F3000A2CC10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010D3EFD18F63F3000A2CC10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010D3F0B18F63F3000A2CC10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010D3EDA18F63F2F00A2CC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010D3EF818F63F3000A2CC10 /* ViewController.m in Sources */,
+				010D3EF218F63F3000A2CC10 /* AppDelegate.m in Sources */,
+				010D3EEE18F63F3000A2CC10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010D3EFB18F63F3000A2CC10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010D3F0D18F63F3000A2CC10 /* DaiVolumeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		010D3F0518F63F3000A2CC10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010D3EDD18F63F2F00A2CC10 /* DaiVolume */;
+			targetProxy = 010D3F0418F63F3000A2CC10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		010D3EEA18F63F3000A2CC10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010D3EEB18F63F3000A2CC10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		010D3EF318F63F3000A2CC10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010D3EF418F63F3000A2CC10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		010D3F0918F63F3000A2CC10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010D3F0A18F63F3000A2CC10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		010D3F0E18F63F3000A2CC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		010D3F0F18F63F3000A2CC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		010D3F1118F63F3000A2CC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaiVolume/DaiVolume-Prefix.pch";
+				INFOPLIST_FILE = "DaiVolume/DaiVolume-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		010D3F1218F63F3000A2CC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaiVolume/DaiVolume-Prefix.pch";
+				INFOPLIST_FILE = "DaiVolume/DaiVolume-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		010D3F1418F63F3000A2CC10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DaiVolume.app/DaiVolume";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaiVolume/DaiVolume-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DaiVolumeTests/DaiVolumeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		010D3F1518F63F3000A2CC10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DaiVolume.app/DaiVolume";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaiVolume/DaiVolume-Prefix.pch";
+				INFOPLIST_FILE = "DaiVolumeTests/DaiVolumeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010D3ED918F63F2F00A2CC10 /* Build configuration list for PBXProject "DaiVolume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010D3F0E18F63F3000A2CC10 /* Debug */,
+				010D3F0F18F63F3000A2CC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010D3F1018F63F3000A2CC10 /* Build configuration list for PBXNativeTarget "DaiVolume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010D3F1118F63F3000A2CC10 /* Debug */,
+				010D3F1218F63F3000A2CC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		010D3F1318F63F3000A2CC10 /* Build configuration list for PBXNativeTarget "DaiVolumeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010D3F1418F63F3000A2CC10 /* Debug */,
+				010D3F1518F63F3000A2CC10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010D3ED618F63F2F00A2CC10 /* Project object */;
+}
