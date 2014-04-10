@@ -17,7 +17,11 @@ daidoujichen@gmail.com
 
 簡易使用
 ======
-只需要 call
+先
+
+    #import "DaiVolume.h"
+    
+然後只需要 call
 
     [DaiVolume volume];
 
