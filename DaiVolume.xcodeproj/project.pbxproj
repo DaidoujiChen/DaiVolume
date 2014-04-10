@@ -13,14 +13,17 @@
 		010D3EEC18F63F3000A2CC10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 010D3EEA18F63F3000A2CC10 /* InfoPlist.strings */; };
 		010D3EEE18F63F3000A2CC10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3EED18F63F3000A2CC10 /* main.m */; };
 		010D3EF218F63F3000A2CC10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3EF118F63F3000A2CC10 /* AppDelegate.m */; };
-		010D3EF518F63F3000A2CC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010D3EF318F63F3000A2CC10 /* Main.storyboard */; };
-		010D3EF818F63F3000A2CC10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3EF718F63F3000A2CC10 /* ViewController.m */; };
 		010D3EFA18F63F3000A2CC10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010D3EF918F63F3000A2CC10 /* Images.xcassets */; };
 		010D3F0118F63F3000A2CC10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010D3F0018F63F3000A2CC10 /* XCTest.framework */; };
 		010D3F0218F63F3000A2CC10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010D3EE118F63F3000A2CC10 /* Foundation.framework */; };
 		010D3F0318F63F3000A2CC10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010D3EE518F63F3000A2CC10 /* UIKit.framework */; };
 		010D3F0B18F63F3000A2CC10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 010D3F0918F63F3000A2CC10 /* InfoPlist.strings */; };
 		010D3F0D18F63F3000A2CC10 /* DaiVolumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3F0C18F63F3000A2CC10 /* DaiVolumeTests.m */; };
+		010D3F1918F63F5000A2CC10 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3F1718F63F5000A2CC10 /* MainViewController.m */; };
+		010D3F1A18F63F5000A2CC10 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010D3F1818F63F5000A2CC10 /* MainViewController.xib */; };
+		010D3F2218F6401400A2CC10 /* DaiVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3F1D18F6401400A2CC10 /* DaiVolume.m */; };
+		010D3F2318F6401400A2CC10 /* DaiVolume+AccessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3F1F18F6401400A2CC10 /* DaiVolume+AccessObject.m */; };
+		010D3F2418F6401400A2CC10 /* DaiVolume+Invocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D3F2118F6401400A2CC10 /* DaiVolume+Invocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +47,21 @@
 		010D3EEF18F63F3000A2CC10 /* DaiVolume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DaiVolume-Prefix.pch"; sourceTree = "<group>"; };
 		010D3EF018F63F3000A2CC10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		010D3EF118F63F3000A2CC10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		010D3EF418F63F3000A2CC10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		010D3EF618F63F3000A2CC10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		010D3EF718F63F3000A2CC10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		010D3EF918F63F3000A2CC10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		010D3EFF18F63F3000A2CC10 /* DaiVolumeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaiVolumeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		010D3F0018F63F3000A2CC10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		010D3F0818F63F3000A2CC10 /* DaiVolumeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DaiVolumeTests-Info.plist"; sourceTree = "<group>"; };
 		010D3F0A18F63F3000A2CC10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		010D3F0C18F63F3000A2CC10 /* DaiVolumeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaiVolumeTests.m; sourceTree = "<group>"; };
+		010D3F1618F63F5000A2CC10 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		010D3F1718F63F5000A2CC10 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		010D3F1818F63F5000A2CC10 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		010D3F1C18F6401400A2CC10 /* DaiVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DaiVolume.h; path = DaiVolume/DaiVolume.h; sourceTree = "<group>"; };
+		010D3F1D18F6401400A2CC10 /* DaiVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DaiVolume.m; path = DaiVolume/DaiVolume.m; sourceTree = "<group>"; };
+		010D3F1E18F6401400A2CC10 /* DaiVolume+AccessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DaiVolume+AccessObject.h"; path = "DaiVolume/DaiVolume+AccessObject.h"; sourceTree = "<group>"; };
+		010D3F1F18F6401400A2CC10 /* DaiVolume+AccessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DaiVolume+AccessObject.m"; path = "DaiVolume/DaiVolume+AccessObject.m"; sourceTree = "<group>"; };
+		010D3F2018F6401400A2CC10 /* DaiVolume+Invocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DaiVolume+Invocation.h"; path = "DaiVolume/DaiVolume+Invocation.h"; sourceTree = "<group>"; };
+		010D3F2118F6401400A2CC10 /* DaiVolume+Invocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DaiVolume+Invocation.m"; path = "DaiVolume/DaiVolume+Invocation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +121,12 @@
 		010D3EE718F63F3000A2CC10 /* DaiVolume */ = {
 			isa = PBXGroup;
 			children = (
+				010D3F1B18F63FE600A2CC10 /* DaiVolume */,
 				010D3EF018F63F3000A2CC10 /* AppDelegate.h */,
 				010D3EF118F63F3000A2CC10 /* AppDelegate.m */,
-				010D3EF318F63F3000A2CC10 /* Main.storyboard */,
-				010D3EF618F63F3000A2CC10 /* ViewController.h */,
-				010D3EF718F63F3000A2CC10 /* ViewController.m */,
+				010D3F1618F63F5000A2CC10 /* MainViewController.h */,
+				010D3F1718F63F5000A2CC10 /* MainViewController.m */,
+				010D3F1818F63F5000A2CC10 /* MainViewController.xib */,
 				010D3EF918F63F3000A2CC10 /* Images.xcassets */,
 				010D3EE818F63F3000A2CC10 /* Supporting Files */,
 			);
@@ -150,6 +160,19 @@
 				010D3F0918F63F3000A2CC10 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		010D3F1B18F63FE600A2CC10 /* DaiVolume */ = {
+			isa = PBXGroup;
+			children = (
+				010D3F1C18F6401400A2CC10 /* DaiVolume.h */,
+				010D3F1D18F6401400A2CC10 /* DaiVolume.m */,
+				010D3F1E18F6401400A2CC10 /* DaiVolume+AccessObject.h */,
+				010D3F1F18F6401400A2CC10 /* DaiVolume+AccessObject.m */,
+				010D3F2018F6401400A2CC10 /* DaiVolume+Invocation.h */,
+				010D3F2118F6401400A2CC10 /* DaiVolume+Invocation.m */,
+			);
+			name = DaiVolume;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				010D3EFA18F63F3000A2CC10 /* Images.xcassets in Resources */,
+				010D3F1A18F63F5000A2CC10 /* MainViewController.xib in Resources */,
 				010D3EEC18F63F3000A2CC10 /* InfoPlist.strings in Resources */,
-				010D3EF518F63F3000A2CC10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				010D3EF818F63F3000A2CC10 /* ViewController.m in Sources */,
+				010D3F2218F6401400A2CC10 /* DaiVolume.m in Sources */,
+				010D3F2318F6401400A2CC10 /* DaiVolume+AccessObject.m in Sources */,
+				010D3F2418F6401400A2CC10 /* DaiVolume+Invocation.m in Sources */,
 				010D3EF218F63F3000A2CC10 /* AppDelegate.m in Sources */,
+				010D3F1918F63F5000A2CC10 /* MainViewController.m in Sources */,
 				010D3EEE18F63F3000A2CC10 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +306,6 @@
 				010D3EEB18F63F3000A2CC10 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		010D3EF318F63F3000A2CC10 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				010D3EF418F63F3000A2CC10 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		010D3F0918F63F3000A2CC10 /* InfoPlist.strings */ = {
@@ -379,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DaiVolume/DaiVolume-Prefix.pch";
 				INFOPLIST_FILE = "DaiVolume/DaiVolume-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DaiVolume/DaiVolume-Prefix.pch";
 				INFOPLIST_FILE = "DaiVolume/DaiVolume-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
